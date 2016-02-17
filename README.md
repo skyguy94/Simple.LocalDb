@@ -13,7 +13,7 @@ If you want a smart and robust LocalDb provider that can create different versio
 Try one of these instead:
 
  - [Nicholas Ham's LocalDb NuGet package](https://www.nuget.org/packages/SqlLocalDb.Dac/).
- -  [Martin Costello's  LocalDb NuGet package](https://www.nuget.org/packages/SqlLocalDb.Dac/).
+ -  [Martin Costello's  LocalDb NuGet package](https://www.nuget.org/packages/System.Data.SqlLocalDb/).
 
 To use this package:
 
