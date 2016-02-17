@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace SqlLocalDbTests
+namespace Simple.LocalDb
 {
   public static class Kernel32
   {

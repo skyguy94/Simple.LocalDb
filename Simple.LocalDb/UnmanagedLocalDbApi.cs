@@ -7,7 +7,7 @@ using System.Text;
 using Microsoft.Win32;
 using FILETIME = System.Runtime.InteropServices.ComTypes.FILETIME;
 
-namespace SqlLocalDbTests
+namespace Simple.LocalDb
 {
   [SuppressMessage("ReSharper", "IdentifierTypo")]
   [SuppressMessage("ReSharper", "FieldCanBeMadeReadOnly.Local")]

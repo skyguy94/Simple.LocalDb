@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace SqlLocalDbTests
+namespace Simple.LocalDb
 {
   public class ManagedLocalDbApi
   {
@@ -35,7 +35,7 @@ namespace SqlLocalDbTests
     public LocalDbInstanceInfo GetInstance(string instanceName)
     {
       LocalDbInstanceInfo info = new LocalDbInstanceInfo();
-      _api.GetInstanceInfo(instanceName, ref info, Marshal.SizeOf<LocalDbInstanceInfo>());
+      _api.GetInstanceInfo(instanceName, ref info, Marshal.SizeOf(typeof(LocalDbInstanceInfo)));
       return info;
     }
 
