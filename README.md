@@ -1,6 +1,6 @@
 # Simple.LocalDb
 
-Simple.LocalDb is a simple managed wrapper around the LocalDB API. There's quite a few LocalDb wrappers and frameworks that offer many features. 
+Simple.LocalDb is a simple managed wrapper around the LocalDB API.
 
 This framework has no features. It does not have error checking. It does not do anything smart. It doesn't try to help you in any way. There are no unit tests. There are no integration tests. There are no interfaces, inheritance, coupling, or clever abstractions.
 
