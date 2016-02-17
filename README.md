@@ -1,6 +1,6 @@
 # Simple.LocalDb
 
-Simple.LocalDb is a simple managed wrapper around the LocalDB API. There's quite a few LocalDb wrappers and frameworks that offer many features. 
+Simple.LocalDb is a simple managed wrapper around the LocalDB API.
 
 This framework has no features. It does not have error checking. It does not do anything smart. It doesn't try to help you in any way. There are no unit tests. There are no integration tests. There are no interfaces, inheritance, coupling, or clever abstractions.
 
@@ -25,7 +25,7 @@ To use this package:
 
 - If you want to include the project source in your project. Have at it.
 
-- If you want to copy paste parts of the code into yours, have at it.
+- If you want to copy paste parts of the code into yours. Have at it.
 
 - If you need to target the .Net 3.5 (neee 2.0) runtime and reference a signed assembly. Grab the source and have at it.
 - If you want to copy this code and publish a new nuget package from it with a different name and 0..n modifications. Have at it.
