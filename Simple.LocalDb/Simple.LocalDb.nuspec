@@ -8,7 +8,6 @@
     <owners>CareEvolution, Inc.</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A very simple managed wrapper around the unmanaged local db API.</description>
-    <iconUrl></iconUrl>
     <projectUrl>https://github.com/skyguy94/Simple.LocalDb</projectUrl>
     <copyright>Copyright (C) CareEvolution, Inc. 2016</copyright>
   </metadata>
