@@ -27,8 +27,8 @@ To use this package:
 
 - If you want to copy paste parts of the code into yours, have at it.
 
-- If you need to target the .Net 3.5 (neee 2.0) runtime and reference a signed assembly. Grab the sample and have at it.
-- If you want to copy this code and publish a new nuget package from it with 0..n modifications. Have at it.
+- If you need to target the .Net 3.5 (neee 2.0) runtime and reference a signed assembly. Grab the source and have at it.
+- If you want to copy this code and publish a new nuget package from it with a different name and 0..n modifications. Have at it.
 
 Example Managed API usage:
 
