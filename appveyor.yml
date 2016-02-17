@@ -1,0 +1,18 @@
+version: 1.{build}.0
+os: Visual Studio 2015
+configuration: Release
+platform: Any CPU
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+build:
+  publish_nuget: true
+  publish_nuget_symbols: true
+  verbosity: minimal
+deploy:
+- provider: NuGet
+  api_key:
+    secure: QVtv/mqtDBJK5xG0ATmeoSn84ZKFS/CVr0iJ5mN5vFLrMA5UwAfJIEBhr2T+S4at
