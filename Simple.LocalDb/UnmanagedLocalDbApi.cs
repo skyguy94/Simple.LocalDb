@@ -57,7 +57,8 @@ namespace Simple.LocalDb
 
     private string GetLocalDbDllName()
     {
-      bool isWow64Process = Environment.Is64BitOperatingSystem && !Environment.Is64BitProcess;
+	    bool isWow64Process = RuntimeInformation.OSArchitecture == Architecture.X64 &&
+	                          RuntimeInformation.OSArchitecture == Architecture.X86;
       var registryView = isWow64Process ? RegistryView.Registry32 : RegistryView.Default;
       using (var rootKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, registryView))
       {
@@ -125,7 +126,7 @@ namespace Simple.LocalDb
     public delegate int LocalDBUnshareInstance([MarshalAs(UnmanagedType.LPWStr)] string pInstanceName, int dwFlags);
   }
 
-  [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
+  [StructLayout(LayoutKind.Sequential)]
   public struct LocalDbInstanceInfo
   {
     internal static readonly int MarshalSize = Marshal.SizeOf(typeof(LocalDbInstanceInfo));
