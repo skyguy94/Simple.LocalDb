@@ -1,5 +1,4 @@
 version: 1.{build}.0
-os: Visual Studio 2015
 configuration: Release
 platform: Any CPU
 dotnet_csproj:
