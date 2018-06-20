@@ -11,7 +11,7 @@ dotnet_csproj:
 before_build:
 - appveyor-retry dotnet restore
 build_script:
-- dotnet build /p:IncludeSymbols=true /p:IncludeSource=true
+- dotnet build
 build:
   publish_nuget: true
   publish_nuget_symbols: true
