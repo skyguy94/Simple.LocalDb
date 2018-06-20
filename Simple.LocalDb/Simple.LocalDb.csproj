@@ -9,6 +9,7 @@
     <RepositoryUrl>https://github.com/skyguy94/Simple.LocalDb</RepositoryUrl>
     <Authors>skyguy94@gmail.com</Authors>
     <Company>CareEvolution, Inc.</Company>
+    <Version></Version>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net46'">
     <PackageReference Include="Microsoft.Win32.Registry">
