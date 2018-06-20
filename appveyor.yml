@@ -7,7 +7,7 @@ dotnet_csproj:
   file: '**\*.csproj'
   assembly_version: '{version}'
   file_version: '{version}'
-  informational_version: '{version}'`
+  informational_version: '{version}'
 before_build:
 - appveyor-retry dotnet restore
 build_script:
