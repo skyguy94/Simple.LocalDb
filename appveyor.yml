@@ -8,6 +8,8 @@ dotnet_csproj:
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
+before_build:
+- appveyor-retry dotnet restore
 build_script:
 - dotnet build /p:IncludeSymbols=true /p:IncludeSource=true
 build:
