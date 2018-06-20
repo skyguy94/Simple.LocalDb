@@ -9,9 +9,9 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-- appveyor-retry dotnet restore
+- appveyor-retry msbuild /t:restore
 build_script:
-- dotnet build
+- msbuild
 build:
   publish_nuget: true
   publish_nuget_symbols: true

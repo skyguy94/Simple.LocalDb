@@ -3,7 +3,7 @@
     <TargetFrameworks>net46;netstandard2.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A very simple managed wrapper around the unmanaged local db API.</Description>
-    <PackageProjectUrl>https://github.com/skyguy94/Simple.LocalDb</PackageProjectUrl>
+    <PackageProjectUrl>https://www.nuget.org/packages/Simple.LocalDb</PackageProjectUrl>
     <Copyright>Copyright (C) CareEvolution, Inc. 2016</Copyright>
     <PackageTags>LocalDb SqlServer</PackageTags>
     <RepositoryUrl>https://github.com/skyguy94/Simple.LocalDb</RepositoryUrl>
