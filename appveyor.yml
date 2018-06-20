@@ -8,7 +8,9 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-- ps: nuget restore Simple.LocalDb.sln
+- appveyor-retry dotnet restore
+build_script:
+- dotnet build
 build:
   publish_nuget: true
   publish_nuget_symbols: true
