@@ -4,13 +4,14 @@ configuration: Release
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
+  package_version: '{version}'
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
 - appveyor-retry dotnet restore
 build_script:
-- dotnet build
+- dotnet build /p:IncludeSybols=true
 build:
   publish_nuget: true
   publish_nuget_symbols: true
