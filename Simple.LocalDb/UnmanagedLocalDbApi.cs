@@ -126,7 +126,7 @@ namespace Simple.LocalDb
     public delegate int LocalDBUnshareInstance([MarshalAs(UnmanagedType.LPWStr)] string pInstanceName, int dwFlags);
   }
 
-  [StructLayout(LayoutKind.Sequential)]
+  [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
   public struct LocalDbInstanceInfo
   {
     internal static readonly int MarshalSize = Marshal.SizeOf(typeof(LocalDbInstanceInfo));
